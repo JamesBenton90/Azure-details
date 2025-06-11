@@ -48,9 +48,54 @@ I clicked through the tabs and hit **“Create”** — then waited a few minute
 
 🚀 Suddenly, I had a **cloud-based computer** running!
 
+-------
+I also reseached non-retalional databases vs relational databases.
+## 📚 Bonus Learning: Relational vs. Non-Relational Data
+
+While exploring Azure, I came across **Azure SQL Database** and **Cosmos DB**. That led me to learn about the two major types of databases used in the cloud:
+
+### 🧮 Relational Databases (SQL)
+
+- Examples: **Azure SQL Database**, **MySQL**, **PostgreSQL**
+- Stores data in **tables with rows and columns**
+- Follows a **schema** — each table has a defined structure
+- Great for **structured data** that doesn't change shape often
+- Ideal for apps that need **consistency** and relationships between data (e.g., finance apps, inventory systems)
+
+📌 *Think of it like a super-organized spreadsheet with rules.*
+
+---
+
+### 📦 Non-Relational Databases (NoSQL)
+
+- Example: **Azure Cosmos DB**
+- Stores data in **flexible formats** like JSON documents
+- No strict schema — each record (or document) can look different
+- Best for **unstructured or semi-structured data** (like logs, user profiles, or IoT data)
+- Designed for **speed, scalability**, and **global distribution**
+
+📌 *Think of it like a digital filing cabinet where every folder can have different content inside.*
+
+---
+
+### 🔍 Quick Comparison
+
+| Feature               | Relational (SQL)               | Non-Relational (NoSQL)           |
+|-----------------------|--------------------------------|----------------------------------|
+| Structure             | Fixed schema (tables)          | Flexible schema (documents, etc.)|
+| Data Type             | Structured                     | Semi-structured / unstructured  |
+| Use Cases             | Finance, HR, Inventory         | IoT, User data, App telemetry   |
+| Azure Service         | Azure SQL Database             | Azure Cosmos DB                 |
+| Query Language        | SQL                            | Varies (SQL-like, MongoDB, etc.)|
+| Relationships         | Strong (foreign keys, joins)   | Weak or none                    |
+
+---
+
+> 💡 **Student takeaway:** Use **SQL** when your data is structured and needs clear relationships.  
+> Use **NoSQL** when you want speed, flexibility, and less rigid data storage.
+
 ---
 I also have done a mock exam regarding Azure.
-
 ![Screenshot 2025-05-30 144726](https://github.com/user-attachments/assets/79fbfaea-e8aa-4c0a-bed0-6f6e26b8cc39)
 
 ----
